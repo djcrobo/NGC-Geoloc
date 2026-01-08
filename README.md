@@ -501,26 +501,9 @@ The complete workflow is:
 3. Check DOM image is readable: `python -c "import cv2; print(cv2.imread('{dom_tif}') is not None)"`
 4. Verify conda environment: `conda env list` (should show environment)
 
-## Citation
 
-If you use this code, please cite our paper:
 
-```bibtex
-@article{your_paper,
-  title={Your Paper Title},
-  author={Your Authors},
-  journal={Journal Name},
-  year={2024}
-}
-```
 
-## License
-
-[Specify your license here]
-
-## Contact
-
-For questions or issues, please contact [your contact information] or open an issue on the repository.
 
 ---
 
