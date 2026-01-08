@@ -1,6 +1,6 @@
-# UAV-VisLoc: Reproducibility Package
+# NGC-Geoloc
 
-This repository contains the code and configuration files to reproduce the results reported in Table II (scene-level metrics) of our manuscript.
+
 
 ## 📋 Table of Contents
 
