@@ -34,7 +34,7 @@ We provide a conda environment file for easy setup:
 
 ```bash
 conda env create -f environment.yaml
-conda activate ace
+conda activate ngcgeoloc
 ```
 
 The `environment.yaml` file contains all required dependencies including:
@@ -499,7 +499,7 @@ The complete workflow is:
 1. Check that prediction files exist: `ls {pt_dir}/*.pt`
 2. Verify ground truth directory: `ls {gt_dir}/match_*.pt`
 3. Check DOM image is readable: `python -c "import cv2; print(cv2.imread('{dom_tif}') is not None)"`
-4. Verify conda environment: `conda env list` (should show `ace` environment)
+4. Verify conda environment: `conda env list` (should show environment)
 
 ## Citation
 
