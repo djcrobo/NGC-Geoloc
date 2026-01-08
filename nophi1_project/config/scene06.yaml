@@ -1,0 +1,17 @@
+# Config for no-phi1 pipeline (mirrors config/scene06.yaml but without csv_path)
+device: auto
+dom_tif: /home/ubuntu/Downloads/UAV_VisLoc_dataset/06/cropped4_satellite06.tif
+eval_csv: outputs/06/eval/results_base.csv
+eval_vis_dir: outputs/06/eval/vis_base
+final_crop_dir: outputs/06/final_crops_base
+global_corner_dir: outputs/06/global_corners_base
+grid_size: [56, 84]
+gt_dir: /home/ubuntu/Desktop/Roma_output/homographies06
+pixel_scale: 0.3
+pixel_step: 8
+pre_corners_dir: outputs/06/pre_corners
+pt_dir: /home/ubuntu/Downloads/dsacstar-master/predictions006base
+query_dir: /home/ubuntu/Downloads/dsacstar2/datasets/try06/test/rgb
+ref_img_dir: outputs/06/ref_images_base
+reproj_thresh: 5.0
+show_text: true
