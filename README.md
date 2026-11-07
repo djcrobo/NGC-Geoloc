@@ -397,7 +397,8 @@ Each config file specifies:
 
 Due to the large file size of model weights, pre-trained models are provided separately via **Baidu Netdisk (百度网盘)**. 
 
-**Download Link**: [Will be provided upon acceptance]
+**Download Link**: 通过网盘分享的文件：03_618new.net
+链接: https://pan.baidu.com/s/1cHlHWP3vlPuXOY46bpfZWA?pwd=8g6u 提取码: 8g6u
 
 The expected naming convention for model weights is:
 ```
